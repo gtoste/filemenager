@@ -1,15 +1,15 @@
-
 {
-  "name": "f",
+  "name": "huj",
   "version": "1.0.0",
-  "description": "test999",
+  "description": "",
   "main": "server.js",
   "dependencies": {
+    "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
-    "express-handlebars": "^6.0.2",
-    "handlebars": "^4.7.7",
-    "formidable": "^2.0.1",
-    "path": "^0.12.7"
+    "express-handlebars": "^5.3.4",
+    "formidable": "^1.2.2",
+    "mongodb": "^4.1.4",
+    "nedb": "^1.8.0"
   },
   "devDependencies": {},
   "scripts": {
