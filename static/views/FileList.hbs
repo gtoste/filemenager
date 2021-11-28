@@ -1,0 +1,30 @@
+<div class = "menu">
+        <a href="/">Upload</a>
+        <a href="/FileList">Filemenager</a>
+</div>
+<div class="content">
+    <div class="side-menu">
+        <h2>Filemenager</h2>
+        {{#if files}}
+        <a href="/clear">Wyczyść dane z tablicy</a>
+        {{/if}}
+    </div>
+    <div class="files">
+    <table class="table">
+    <tr>
+        <td>id</td>
+        <td>obraz</td>
+        <td>name</td>
+        <td>size</td>
+        <td>type</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    {{#each files}}
+        {{> SingleFile}}
+    {{/each}}
+    </table>
+        
+    </div>
+</div>
